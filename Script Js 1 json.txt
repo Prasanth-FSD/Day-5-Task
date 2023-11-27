@@ -1,0 +1,99 @@
+Print the forloop;
+
+For ;
+
+
+var numbers = [ 10, 20, 30, 40, 50] 
+
+for (var i=0; i < numbers.length; i++) {
+
+   console.log(numbers[i])
+}
+‍
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+For In ;
+
+
+var ar = [];
+ar[0] = "a"; 
+ar[1] = "b";
+ar[4] = "c";
+
+function forInArray(ar){ 
+     for(var i = 0; i < ar.length; i += 1) 
+        console.log(ar[i]);
+}
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+For Of ;
+
+
+
+  const array1 = ['a', 'b', 'c'];
+
+    for (const element of array1) {
+  console.log(element);
+}
+
+  
+output;
+
+"A"
+"B"
+"c"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+For Eash ;
+
+
+
+var json = [{
+    "id" : "1", 
+    "msg"   : "hi",
+    "fromWho": "hello1@email.se"
+},
+{
+    "id" : "2", 
+    "msg"   : "there",
+    "fromWho": "hello2@email.se"
+}];
+
+json.forEach((item) => {
+  console.log('ID: ' + item.id);
+  console.log('MSG: ' + item.msg);
+  console.log('FROMWHO: ' + item.fromWho);
+});
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------
